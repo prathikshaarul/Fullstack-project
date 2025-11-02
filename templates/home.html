@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<section class="home-section">
+    <div class="home-text">
+        <h1>Welcome to <span>Timely</span> 🕒</h1>
+        <p>
+            Your intelligent attendance partner! Whether you’re a student, teacher, or admin, 
+            Timely ensures every second counts. Track attendance, visualize data, and manage records effortlessly. 
+            Simple, smart, and stunning.
+        </p>
+        <a href="{{ url_for('login') }}" class="btn">Get Started 🚀</a>
+    </div>
+</section>
+{% endblock %}
